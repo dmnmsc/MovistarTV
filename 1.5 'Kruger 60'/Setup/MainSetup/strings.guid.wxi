@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+==============================================================================
+
+  Copyright (C) 2014-2020, GitHub/Codeplex user AlphaCentaury
+  All rights reserved.
+
+    See 'LICENSE.MD' file (or 'license.txt' if missing) in the project root
+    for complete license information.
+
+  http://www.alphacentaury.org/movistartv
+  https://github.com/AlphaCentaury
+
+==============================================================================
+-->
+<Include>
+  <?define Guid.Core.Assemblies = "{B150F132-A2D8-4E0D-AAAF-C2BB9BDBDA78}" ?>
+  <?define Guid.Core.Assemblies.Localization.es = "{99A5CCCA-869A-4FF5-9870-0EAA9AAD0C85}" ?>
+
+  <?define Guid.ContentProvider.Configuration ="{30D2B55A-2EFC-4400-A39D-3A7C1B361044}" ?>
+  <?define Guid.ContentProvider.Assemblies = "{BA81A1B7-A57E-44B2-9680-2926734A9359}" ?>
+  <?define Guid.ContentProvider.Assemblies.Localization.es = "{A9233DB4-B343-4473-A34E-F683D1ED2FEB}" ?>
+
+  <?define Guid.DVB.Assemblies = "{8AB098B0-B92A-4F75-942D-CB3804FCCB0F}" ?>
+  <?define Guid.DVB.Assemblies.Localization.es = "{30944237-0D6E-4D2F-9916-D2AB62484AB8}" ?>
+
+  <?define Guid.EPG.Assemblies = "{7DBB1BD5-584C-40C4-9AE5-CB748E1B0468}" ?>
+  <?define Guid.EPG.Assemblies.Localization.es = "{77C874B3-3B7B-4035-B773-2E27E8AA5303}" ?>
+
+  <?define Guid.Product.Assemblies = "{7723E103-8C4C-48D1-896C-B0569EFE5FC1}" ?>
+  <?define Guid.Product.Shortcut = "{4F7C0445-D7B0-46BB-B784-B1212E88803F}" ?>
+  <?define Guid.Product.Localization.es = "{8B37D7CA-8C30-4CE3-A000-CF6341FE7016}" ?>
+  <?define Guid.Product.Licensing = "{6B57111D-2DFC-43FE-A89B-796A2F370597}" ?>
+
+  <?define Guid.Record.Registry = "{3BC7845F-D6F0-4352-9477-68ABB0C1749C}" ?>
+  <?define Guid.Record.Assemblies = "{D3165EC9-5946-4E00-AB09-95744AF3CC0B}" ?>
+  <?define Guid.Record.Assemblies.Localization.es = "{913378ED-1FA7-4F91-A488-8EC59DC0DAD1}" ?>
+  <?define Guid.Record.Dependencies = "{BBBA24AB-7744-409E-A44A-D1612E7ECE4E}" ?>
+  <?define Guid.Record.Dependencies.Localization.es = "{18BBC23A-C74F-4355-B9C4-A921E3AA9A20}" ?>
+  <?define Guid.Record.DB = "{78C680B8-5B4F-4B02-9071-AE1A6422034D}" ?>
+  <?define Guid.Record.Launcher = "{EB84F3EA-F37B-4599-A493-FEFB5D45B58C}" ?>
+  <?define Guid.Record.Launcher.Localization.es = "{5E878362-266F-494C-B099-A6722F9D48CD}" ?>
+
+  <?define Guid.Redist.EMB.x86 = "{BF7E06EF-6399-41A8-84E7-D825710B387B}" ?>
+  <?define Guid.Redist.EMB.x64 = "{85DA1075-376E-476E-8A0C-C2A24D7890EA}" ?>
+  <?define Guid.Redist.SqlCe.x86 = "{D696F805-E828-4999-BB98-1C2CCE4E5569}" ?>
+  <?define Guid.Redist.SqlCe.x64 = "{2797DD8F-DD19-45F1-B049-E305F0A4576F}" ?>
+  <?define Guid.Redist.LoadNetFx35 = "{58522A11-58F0-4719-89E8-CFE89C6737C4}" ?>
+
+  <?define Guid.Services.Assemblies = "{BD701E5A-FACD-46D8-8012-F7B7052347A9}" ?>
+  <?define Guid.Services.Assemblies.Localization.es ="{405493DA-679E-47D6-A190-5192066F6C8D}" ?>
+
+  <?define Guid.Telemetry.Assemblies = "{2A246603-E57C-4C8C-8456-F591A1B3F1BB}" ?>
+  <?define Guid.Telemetry.Assemblies.Localization.es = "{0B036F07-26A9-41BD-BA05-7C94AE169F11}" ?>
+  <?define Guid.Telemetry.MsAppCenter = "{83F4DC4F-619A-433D-99CC-CA83FF6DC5C6}" ?>
+  <?define Guid.Telemetry.MsAppCenter.Dependencies = "{4EFD0D59-8D30-4208-9167-16273ECEF9D5}" ?>
+
+  <?define Guid.ThirdParty.JsonNet = "{FA3CDFB5-E3C5-42F5-9138-256BF7CABFC4}" ?>
+  <?define Guid.ThirdParty.SQLite = "{B27AE8AC-53D6-4576-84F4-CCD6ABE2D61A}" ?>
+  <?define Guid.ThirdParty.SQLite.x86 = "{3609635F-E374-413E-B23E-3FA5CE461DFD}" ?>
+  <?define Guid.ThirdParty.SQLite.x64 = "{E0FDA2DE-15D3-48F1-BC32-8464770F202B}" ?>
+
+  <?define Guid.Tools.FirstTimeConfig.Assemblies = "{E3AEDE81-AA8D-4B8F-A353-F5A16B760AE2}" ?>
+  <?define Guid.Tools.FirstTimeConfig.Shortcut = "{AF960158-A604-4526-9B5C-A1241BFF552A}" ?>
+  <?define Guid.Tools.FirstTimeConfig.Localization.es = "{F5D33972-C997-424D-A5D9-B91FBF51A1C0}" ?>
+
+  <?define Guid.UIServices.Assemblies = "{0E580844-F58A-4E9F-BEFE-A53015ECE6A4}" ?>
+  <?define Guid.UIServices.Assemblies.Localization.es ="{21A50842-BEBA-4619-B4D3-A7BDB5818FCB}" ?>
+
+  <?define Guid.Uninstall.Folders = "{7B6ADDAA-17CA-4970-8A39-DE686604CB0B}" ?>
+</Include>
